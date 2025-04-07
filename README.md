@@ -97,7 +97,7 @@ Sinta-se à vontade para abrir issues ou pull requests.
 
 Se você curtiu esse projeto, me chama aqui no LinkedIn para conversar:
 
-🔗 [Seu Nome no LinkedIn](https://www.linkedin.com/in/seu-usuario)
+🔗 [LinkedIn Will Sousa](https://www.linkedin.com/in/williamsousa-dev/)
 
 ---
 
