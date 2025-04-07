@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Converse com Deus</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🕊️ Converse com Deus</h1>
+        <form method="post">
+            <textarea name="mensagem" placeholder="Digite sua mensagem aqui..." required></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+
+        {% if resposta %}
+            <div class="resposta">
+                <h2>Resposta:</h2>
+                <p>{{ resposta }}</p>
+            </div>
+        {% endif %}
+
+        <div class="aviso">
+            <hr>
+            <p><strong>⚠️ Aviso:</strong> Este aplicativo é uma ferramenta baseada na Bíblia Sagrada e em inteligência artificial. Ele foi criado para auxiliar na reflexão espiritual, mas <strong>não substitui a oração, a leitura da Bíblia ou o relacionamento pessoal com Deus</strong>. Busque sempre uma conexão real com o Altíssimo através da fé, da comunhão e da prática do amor. 🙏</p>
+        </div>
+    </div>
+</body>
+</html>
